@@ -15,6 +15,23 @@ marp: true
 ---
 
 # Talk Template
+<!-- Speaker notes will appear here. -->
+
+---
+
+## Example Links
+- [Link to website](https://www.hashbangcode.com)
+- [Link to slide](#5)
+---
+
+<!-- _footer: "" -->
+## Page without a footer
+- Nope, no footer.
+
+---
+
+## Small Text Slide
+<p class="small-text">This is small text.</p>
 
 ---
 
@@ -23,10 +40,7 @@ marp: true
 ![bg right:50%](../src/assets/images/hashbangcode_logo.png)
 
 ---
-<!-- _footer: "" -->
-## Page without a footer
-- Nope, no footer.
 
----
-## Small Text Slide
-<p class="small-text">This is small text.</p>
+<!-- _footer: "" -->
+![bg h:100%](../src/assets/images/hashbangcode_logo.png)
+
