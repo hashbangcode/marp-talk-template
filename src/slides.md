@@ -9,7 +9,7 @@ style: |
   .small-text {
     font-size: 0.75rem;
   }
-footer: "Philip Norton [hashbangcode.com](https://www.hashbangcode.com) [@hashbangcode](https://twitter.com/hashbangcode) [@philipnorton42](https://twitter.com/philipnorton42)"
+footer: "Philip Norton [hashbangcode.com](https://www.hashbangcode.com) [@hashbangcode](https://fosstodon.org/@hashbangcode) [@philipnorton42](https://fosstodon.org/@philipnorton42)"
 marp: true
 
 ---
