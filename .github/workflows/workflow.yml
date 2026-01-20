@@ -24,6 +24,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Allow chrome to run in unprivileged mode.
+        run: echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
+
       - name: Build Marp slide deck
         run: CHROME_PATH=$(npx -y @puppeteer/browsers@latest install chrome@stable --path $(realpath ./tmp) | awk '{print $2}') npm run build:all
 
